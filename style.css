@@ -81,7 +81,7 @@ footer {
   display: table;
   clear: both;
 }
-li {
+a {
 	color: white;
 	font-family: Arial;
 }
