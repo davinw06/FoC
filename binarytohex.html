@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoC</title>
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+</head>
+<body>
+
+<div class="header">
+	<h1>Fundamentals of Computing</h1>
+	<ul>
+	  <li><a href="aboutme.html">Dev Team</a></li>
+	  <li><a href="projects.html">Projects</a></li>
+	  <li><a href="concepts.html">Concepts</a></li>
+	  <li><a href="index.html">Course</a></li>
+	</ul>
+</div>
+
+<section>
+<h2>Project 1: Binary to Hexidecimal</h2>	
+</section>
+<section class="bintohex">
+<p><img src="bintohex.jpg"></p>
+        
+			
+         
+<input type="number" id="inputBin" value="">
+
+<p>Enter any 4 digit binary number:</p>
+
+<button onclick="binToHex()">Submit</button>
+
+<p>Hexidecimal Value : </p>
+<p id="demo"></p>
+
+<script>
+function binToHex() {
+  var x = document.getElementById("inputBin").value;
+  var hexOut = parseInt(x , 2).toString(16).toUpperCase();
+  document.getElementById("demo").innerHTML = hexOut;
+  }
+</script>
+
+
+
+</section>
+
+
+<a href="index.html">Back to Home</a></h3>
+
+<footer>
+  <p>@ Powered by UB</p>
+</footer>
+
+</body>
+</html>
