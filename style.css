@@ -1,88 +1,213 @@
-* {
-  box-sizing: border-box;
-}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  margin: 0;
+}
+.bintohex {
+	margin-left: 50px;
+	padding-bottom: 75px;
 }
 
-/* Style the header */
-header {
-  background-color: #FF1D2B;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
+
+.header {
+	background-color: white;
+	height: 70px;
+	width: absolute;
+	padding-top: 5px;
+	position: sticky;
+	top: 0;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 15%;
-  /*height: 300px;  only for demonstration, should be removed */
-  background: #000000;
-  color: white;
- padding: 20px;
+.profilecard {
+	height: 200px;
+	width: 500px;
+	background-color: lightgray;
+	border: 3px 3px;
+	border-style: solid;
+	border-color: black;
+	position: fixed; 
+	left: 0; 
+	text-align: left; 
+	margin-top: 100px; 
+	margin-left: 50px; 
+	padding: 16px 16px;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  color: white;
+.profilecard p {
+	float: right;
+	text-align: left;
+	position: relative;
+	top: 0px;
+	right: 50px;
+	font-size: 130%;
+	font-family: courier;
+	font-weight: bold;
+	margin-top: 0;
+	color: black;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #FFFFFF;
-  /* height: 300px;  only for demonstration, should be removed */
+.profilecard p1 {
+	float: right;
+	text-align: left;
+	position: relative;
+	top: -150px;
+	right: 0px;
+	font-size: 95%;
+	font-family: courier;
+	font-weight: bold;
+	margin-top: 0;
+	color: black;
 }
 
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
+.concepts {
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 100px;
 }
 
-/* Style the footer */
-footer {
-  border: 3px black;
-  background-color: #FF1D2B;
-  padding: 10px;
-  text-align: center;
-  color: white;
+.concepts a {
+	margin-left: 30px;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-* {
-  box-sizing: border-box;
+.concepts img {
+	margin-bottom: 50px;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-
+.projectsback {
+	position: relative;
+	bottom: 135px;
+	height: 750px;
+	width: absolute;
+	background-color: lightgray;
+	z-index: -1;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.projects {
+	width: absolute;
+	height: 200px;
 }
-a {
+
+.projects li {
+	list-style-type: none;
+}
+
+
+.projects li a {
+	float: left;
+	font-weight: normal;
+	font-size: 125%;
+	padding: 25px 500px;
+	background-color: lightgray;
+	text-decoration: none;
+	color: black;
+}
+
+.projects li a:hover {
 	color: white;
-	font-family: Arial;
+	background-color: black;
 }
 
+h1 {
+  float: left;
+  text-align: left;
+  font-family: courier;
+  font-style: normal;
+  font-variant: small-caps;
+  font-size: 200%;
+  padding: 10px;
+  padding-right: 0px;
+  margin: 0;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+ 
+h3 {
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: calibri;
+	width: absolute;
+	background-color: black;
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+h2 {
+	text-align: left;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+	font-variant: small-caps;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: calibri;
+	width: absolute;
+	height: 50px;
+	background-color: #00CDFF;
+	border-bottom: 2px solid black;
+}
+ 
+ 
+.header li {
+  float: right;
+  margin-right: 10px;
+  top: 0;
+  list-style-type: none;
+}  
+ 
+.header li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 25px 16px;
+  padding-top: 10px;
+  color: black;
+}
+
+.header li a:hover {
+  color: black;
+  border-bottom: 3px solid black;
+  text-decoration: none;
+}
+
+.pageinfo p {
+  text-align: center;
+  padding-top: 125px;
+  font-size: 135%;
+  color: white;
+}
+
+.pageinfo mark {
+	background-color: black;
+	color: white;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  bottom: 0;
+  background-color: black;
+}
+
+footer a {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  text-decoration: none;
+  color: gray;
+  font-size: 100%;
+  text-align: left;
+  font-family: Verdana;
+}
+
+footer a:hover {
+  color: white;
+}
