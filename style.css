@@ -295,6 +295,7 @@ input {
   text-align: center;
   padding: 23.5px 16px;
   padding-top: 10px;
+  border-bottom: 3.25px solid white;
   color: black;
 }
 
