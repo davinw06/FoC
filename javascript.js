@@ -3,8 +3,8 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "https://www.iconsdb.com/icons/preview/red/button-off-xxl.png";
-   var img2 = "https://www.iconsdb.com/icons/preview/green/button-on-xxl.png";
+   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img2 = "https://www.iconsdb.com/icons/preview/black/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage');
@@ -17,8 +17,8 @@ function toggleImage() {
 
   
 function toggleImage2() {
-   var img1 = "https://www.iconsdb.com/icons/preview/red/button-off-xxl.png";
-   var img2 = "https://www.iconsdb.com/icons/preview/green/button-on-xxl.png";
+   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img2 = "https://www.iconsdb.com/icons/preview/black/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage2');
@@ -62,4 +62,18 @@ function and(){
         document.getElementById('andGate').src='andonoff.PNG';
 	else if (!inputOneIsOn && !inputTwoIsOn) 
         document.getElementById('andGate').src='and2off.PNG';
+	}
+
+function not(){
+    var c = inputOneIsOn;
+    
+	  
+            console.log('Input one is on: ', 
+                                inputOneIsOn); 
+	
+    
+    if(inputOneIsOn)
+        document.getElementById('notGate').src='noton.png';
+    else if (!inputOneIsOn) 
+        document.getElementById('notGate').src='notoff.PNG';
 	}
