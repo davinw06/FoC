@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>FoC</title>
+<title>Final Project - NOT Gate</title>
+<link rel="icon" type="image/x-icon" class="tabimg" href="https://www.ub.edu.bz/wp-content/uploads/2016/08/UB-Logo.png">
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
 <body>
-<center>
-<section>
-<h2>Project 1: Not Gate</h2>
 
-<div class="row">
-  <div class="column" style="background-color:#aaa;">
-    <h2>Input</h2>
-    <p><button style="width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='noton2.png'">ON</button></p>
-    <p><button style="width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='notoff2.png'">OFF</button></p>
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <h2>Output</h2>
-	<hr>
-	<img id="belizeImage" src="noton2.png" alt="noton" width="400" height="86" align="center">
-  </div>
+<div class="header">
+	<h1>Fundamentals of Computing</h1>
+	<ul>
+	  <li><a href="aboutme.html">Dev Team</a></li>
+	  <li><a href="projects.html">Projects</a></li>
+	  <li><a href="concepts.html">Concepts</a></li>
+	  <li><a href="index.html">Course</a></li>
+	</ul>
 </div>
-<a href="index.html">Back to Home</a></h3>
-</section>
-</center>
 
+<script src = "javascript.js"></script>
+<p>
+
+<table style="width:100%">
+
+  <tr>
+    <td>
+	<img src="https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png"  id="toggleImage" width="100" style="margin-bottom: 25px; margin-left: 25px;" onclick="toggleImage(); toggleInputOne();"/>
+	<br>
+</td>
+    <td><img id="notGate" src="notoff.png" width="800" ></td>
+  </tr>
+
+</table>
+   <p2>Click Run to see results.</p2>
+</p>
+
+<button class="button" onclick = "not()">Run</button>
 
 
 <footer>
-  <p>@ Powered by UB</p>
+  <a href="https://github.com/davinw06/FoC">@Github Sources</a>
 </footer>
 
 </body>
