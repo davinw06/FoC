@@ -27,11 +27,10 @@ body {
 	border: 3px 3px;
 	border-style: solid;
 	border-color: black;
-	position: fixed; 
-	left: 0; 
+	float: left;
 	text-align: left; 
-	margin-top: 100px; 
-	margin-left: 50px; 
+	margin-top: 75px; 
+	margin-left: -350px; 
 	margin-right: 50px;
 	padding: 16px 16px;
 }
@@ -70,11 +69,11 @@ body {
 	border: 3px 3px;
 	border-style: solid;
 	border-color: gray;
-	position: fixed; 
-	left: 600px;
+	float: left;
 	text-align: left; 
-	margin-top: 100px; 
-	margin-left: 50px; 
+	margin-top: 25px; 
+	margin-left: 35px;
+	margin-bottom: 100px;
 	padding: 16px 16px;
 }
 
