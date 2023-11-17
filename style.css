@@ -153,7 +153,8 @@ h1 {
   font-style: normal;
   font-variant: small-caps;
   font-size: 200%;
-  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 12px;
   padding-right: 0px;
   margin: 0;
   padding-left: 25px;
@@ -200,14 +201,14 @@ h2 {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  padding: 25px 16px;
+  padding: 23.5px 16px;
   padding-top: 10px;
   color: black;
 }
 
 .header li a:hover {
   color: black;
-  border-bottom: 3px solid black;
+  border-bottom: 3.25px solid black;
   text-decoration: none;
 }
 
