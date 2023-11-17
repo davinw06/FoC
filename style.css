@@ -75,19 +75,11 @@ body {
 	margin-bottom: 50px;
 }
 
-.projectsback {
-	position: relative;
-	bottom: 235px;
-	height: 950px;
-	margin: 0;
-	width: absolute;
-	background-color: lightgray;
-	z-index: -1;
-}
 
 .projects {
 	width: absolute;
-	height: 300px;
+	height: 1200px;
+	background-color: lightgray;
 }
 
 .projects li {
@@ -99,8 +91,8 @@ body {
 	float: left;
 	font-weight: normal;
 	font-size: 125%;
-	padding: 25px 500px;
-	margin-right: 75px;
+	padding: 25px 525px;
+	margin-right: 50px;
 	background-color: lightgray;
 	text-decoration: none;
 	color: black;
