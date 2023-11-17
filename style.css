@@ -32,6 +32,7 @@ body {
 	text-align: left; 
 	margin-top: 100px; 
 	margin-left: 50px; 
+	margin-right: 50px;
 	padding: 16px 16px;
 }
 
@@ -59,6 +60,48 @@ body {
 	font-weight: bold;
 	margin-top: 0;
 	color: black;
+}
+
+
+.profilecard2 {
+	height: 200px;
+	width: 500px;
+	background-color: black;
+	border: 3px 3px;
+	border-style: solid;
+	border-color: gray;
+	position: fixed; 
+	left: 600px;
+	text-align: left; 
+	margin-top: 100px; 
+	margin-left: 50px; 
+	padding: 16px 16px;
+}
+
+.profilecard2 p {
+	float: right;
+	text-align: left;
+	position: relative;
+	top: 0px;
+	right: 50px;
+	font-size: 130%;
+	font-family: courier;
+	font-weight: bold;
+	margin-top: 0;
+	color: white;
+}
+
+.profilecard2 p1 {
+	float: right;
+	text-align: left;
+	position: relative;
+	top: -150px;
+	right: 10px;
+	font-size: 95%;
+	font-family: courier;
+	font-weight: bold;
+	margin-top: 0;
+	color: white;
 }
 
 .concepts {
