@@ -10,7 +10,7 @@ function toggleImage() {
    var imgElement = document.getElementById('toggleImage');
 
 
-   imgElement.src = (imgElement.src == img1)? img2 : img1;
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
    
    
 }
@@ -24,7 +24,7 @@ function toggleImage2() {
    var imgElement = document.getElementById('toggleImage2');
 
 
-   imgElement.src = (imgElement.src === img1)? img2 : img1;
+   imgElement.src = (imgElement.src === img2)? img2 : img1;
    
    
 }
