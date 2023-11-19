@@ -42,6 +42,7 @@ body {
 	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
 }
 
+
 .profilecard {
 	height: 200px;
 	width: 500px;
@@ -52,9 +53,14 @@ body {
 	float: left;
 	text-align: left; 
 	margin-top: 25px; 
-	margin-left: -350px; 
+	margin-left: -353px; 
 	margin-right: 50px;
 	padding: 16px 16px;
+}
+
+.profilecard:hover {
+	transition: 0.4s;
+	transform: translate(1px, 8px);
 }
 
 .profilecard p {
@@ -98,6 +104,11 @@ body {
 	padding: 16px 16px;
 }
 
+.profilecard2:hover {
+	transition: 0.4s;
+	transform: translate(1px, 8px);
+}
+
 .profilecard2 p {
 	float: right;
 	text-align: left;
@@ -139,6 +150,11 @@ body {
 	padding: 16px 16px;
 }
 
+.profilecard3:hover {
+	transition: 0.4s;
+	transform: translate(1px, 8px);
+}
+
 .profilecard3 p {
 	float: right;
 	text-align: left;
@@ -174,6 +190,11 @@ body {
 
 .concepts a {
 	margin-left: 30px;
+}
+
+.concepts a img:hover {
+	transition: 0.3s;
+	transform: scale(1.02, 1.02);
 }
 
 .concepts img {
@@ -257,6 +278,7 @@ body {
 .projects li a:hover {
 	color: white;
 	background-color: black;
+	transform: translate(20px,0px);
 	transition: 0.4s;
 }
 
@@ -430,6 +452,12 @@ input {
 	color: white;
 }
 
+.header {
+	z-index: 1;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
  
 .header li {
   float: right;
