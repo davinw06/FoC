@@ -75,7 +75,7 @@ function not(){
     if(inputOneIsOn)
         document.getElementById('notGate').src='noton.png';
     else if (!inputOneIsOn) 
-        document.getElementById('notGate').src='notoff.PNG';
+        document.getElementById('notGate').src='notoff.png';
 	}
 	
 function or(){
