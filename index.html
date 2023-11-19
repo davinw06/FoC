@@ -14,7 +14,25 @@
 	  <li><a href="concepts.html">Concepts</a></li>
 	  <li><a href="index.html">Course</a></li>
 	</ul>
+	<span class="sidebaropen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Course</a>
+  <a href="concepts.html">Concepts</a>
+  <a href="projects.html">Projects</a>
+  <a href="aboutme.html">Dev Team</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 <div class="pageinfo">
     <p><mark> This is our Final Project for Fundamentals of Computing. It showcases<br>
 	what we learnt throughout the semester; AND, NOT, OR, XOR gates, machine language<br>
@@ -22,7 +40,7 @@
 </div>
 
 <footer>
-  <a href="https://github.com/davinw06/FoC">@Github Sources</a>
+  <a href="https://github.com/davinw06/FoC" target="_blank">@Github Sources</a>
 </footer>
 
 
