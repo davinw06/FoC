@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project - UNICODE</title>
+<link rel="icon" type="image/x-icon" class="tabimg" href="https://www.ub.edu.bz/wp-content/uploads/2016/08/UB-Logo.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<style>
+
+</style>
+</head>
+<body>
+<div class="header">
+	<a href="index.html"><h1>Fundamentals of Computing</h1></a>
+	<ul>
+	  <li><a href="aboutme.html">Dev Team</a></li>
+	  <li><a href="projects.html">Projects</a></li>
+	  <li><a href="concepts.html">Concepts</a></li>
+	  <li><a href="index.html">Course</a></li>
+	</ul>
+	<span class="sidebaropen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Course</a>
+  <a href="concepts.html">Concepts</a>
+  <a href="projects.html">Projects</a>
+  <a href="aboutme.html">Dev Team</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<section class="h6">
+	<h6><span>Project 6 :</span> UNICODE</h6>
+</section>
+<section>
+
+
+<center>
+<p>Please input UNICODE number:</p>
+
+<input id="numb" type="text">
+
+<button class="submit" style="cursor: pointer" type="button" onclick="myFunction()">Submit</button>
+<br>
+<table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+ 
+  <tr>
+    <th><center><p id="demo"></center></p></th>
+  </tr>
+  
+</table>
+
+
+<p><img src="uni1.jpg" style="width:700px;height:400px;"></p>
+<p><img src="uni3.jpg" style="width:700px;height:400px;"></p>        
+<p><img src="uni4.jpg" style="width:700px;height:400px; margin-bottom: 100px;"></p>  			
+
+<p></p>
+<p></p>         
+
+<br>
+
+
+</center>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  
+    text = x;
+    unicode = ("&#x" + x)
+  
+  document.getElementById("demo").innerHTML = unicode;
+}
+</script>
+
+
+</section>
+
+<footer>
+  <a href="https://github.com/davinw06/FoC" target="_blank">@Github Sources</a>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

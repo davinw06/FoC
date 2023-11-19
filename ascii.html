@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project - ASCII</title>
+<link rel="icon" type="image/x-icon" class="tabimg" href="https://www.ub.edu.bz/wp-content/uploads/2016/08/UB-Logo.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+img {
+  float: left;
+ padding-right: 40px; 
+ padding-left: 40px;
+ padding-bottom: 40px;
+ margin-bottom: 40px;
+ 
+}
+</style>
+</head>
+<body>
+<div class="header">
+	<a href="index.html"><h1>Fundamentals of Computing</h1></a>
+	<ul>
+	  <li><a href="aboutme.html">Dev Team</a></li>
+	  <li><a href="projects.html">Projects</a></li>
+	  <li><a href="concepts.html">Concepts</a></li>
+	  <li><a href="index.html">Course</a></li>
+	</ul>
+	<span class="sidebaropen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Course</a>
+  <a href="concepts.html">Concepts</a>
+  <a href="projects.html">Projects</a>
+  <a href="aboutme.html">Dev Team</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<section>
+<h4><span>Project 5 :</span> ASCII</h4>
+
+
+<p><img src="ascii.png" class="asciipng" style="width: 70%;"></p>
+        
+			
+
+<p></p>
+<p></p>         
+
+
+<section class="context">
+<p>Enter any number from 0 to 127 :</p>
+<input id="inputdec" >
+<p></p>
+<button class="submit" style="cursor: pointer" onclick="decToASCII()">Submit</button>
+<p></p>
+<p>ASCII Value : </p>
+<p id="demo"></p>
+</section>
+<script>
+function decToASCII() {
+  x = document.getElementById("inputdec").value;
+  var res = String.fromCharCode(x);
+  document.getElementById("demo").innerHTML = res;
+  console.log(res);
+}
+</script>
+<p class="space"></p>
+
+
+<footer>
+  <a href="https://github.com/davinw06/FoC" target="_blank">@Github Sources</a>
+</footer>
+
+</body>
+</html>
