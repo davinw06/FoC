@@ -15,10 +15,12 @@ body {
   font-size: 16px;
   margin: 25px 25px;
   cursor: pointer;
+  margin-bottom: 100px;
 }
 
 .button:hover {
 	background-color: lightgray;
+	transition: 0.3s;
 }
 
 .button:active {
@@ -49,7 +51,7 @@ body {
 	border-color: black;
 	float: left;
 	text-align: left; 
-	margin-top: 75px; 
+	margin-top: 25px; 
 	margin-left: -350px; 
 	margin-right: 50px;
 	padding: 16px 16px;
@@ -181,9 +183,9 @@ body {
 
 .projects {
 	width: absolute;
-	height: 1200px;
+	height: 700px;
 	background-color: lightgray;
-	margin: auto;
+	margin-top: 0;
 }
 
 .projects li {
@@ -200,15 +202,67 @@ body {
 	padding: 20px 20px;
 	margin: auto;
 	height: 50px;
-	width: 900px;
+	width: 200vh;
 	background-color: lightgray;
 	text-decoration: none;
 	color: black;
 }
 
+@media only screen and (max-width: 230vh) {
+	.projects li a {
+		width: 190vh;
+	}
+}
+
+@media only screen and (max-width: 220vh) {
+	.projects li a {
+		width: 170vh;
+	}
+}
+
+
+@media only screen and (max-width: 200vh) {
+	.projects li a {
+		width: 150vh;
+	}
+}
+
+@media only screen and (max-width: 190vh) {
+	.projects li a {
+		width: 140vh;
+	}
+}
+
+@media only screen and (max-width: 170vh) {
+	.projects li a {
+		width: 130vh;
+	}
+}
+
+@media only screen and (max-width: 160vh) {
+	.projects li a {
+		width: 110vh;
+	}
+}
+
+
+@media only screen and (max-width: 150vh) {
+	.projects li a {
+		width: 100vh;
+	}
+}
+
+
+
 .projects li a:hover {
 	color: white;
 	background-color: black;
+	transition: 0.4s;
+}
+
+.projects li a:active {
+	background-color: lightgray;
+	color: black;
 }
 
 h1 {
@@ -238,6 +292,7 @@ h3 {
 	color: white;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	margin-top: 0;
 }
 
 h2 {
@@ -251,9 +306,97 @@ h2 {
 	font-family: calibri;
 	width: absolute;
 	height: 50px;
-	background-color: #3d85c6;
+	background-color: black;
+	color: #3d85c6;
+}
+
+h4 {
+	text-align: left;
+	font-size: 20pt;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-weight: bold;
+	width: absolute;
+	background-color: black;
+	margin-left: 25px;
+	border-bottom: 3px solid black;
+	color: #FBFF9D;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+h5 {
+	text-align: left;
+	font-size: 20pt;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-weight: bold;
+	width: absolute;
+	background-color: black;
+	margin-left: 25px;
+	border-bottom: 3px solid black;
+	color: #CBFF9D;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+.h5 h5 {
+	text-align: left;
+	font-size: 20pt;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-weight: bold;
+	width: absolute;
+	background-color: black;
+	margin-left: 25px;
+	border-bottom: 3px solid black;
+	color: #FF883B;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+h6 {
+	text-align: left;
+	font-size: 20pt;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-weight: bold;
+	width: absolute;
+	background-color: black;
+	margin-left: 25px;
+	border-bottom: 3px solid black;
+	color: #FF817B;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+.h6 h6 {
+	text-align: left;
+	font-size: 20pt;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-weight: bold;
+	width: absolute;
+	background-color: black;
+	margin-left: 25px;
+	border-bottom: 3px solid black;
+	color: #3BFFE4;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+span {
 	color: white;
-	border-bottom: 2px solid #0b5394;
 }
 
 p2 {
@@ -272,6 +415,13 @@ input {
 	font-family: courier;
 }
 
+@media only screen and (max-width: 900px) {
+	.result {margin-left: 25px;}
+	.space {margin-bottom: 200px;}
+	.context {display: block;}
+	.asciipng {width: 100%;}
+}
+
 .submit {
 	width: 100px;
 	height: 55px;
@@ -279,7 +429,6 @@ input {
 	background-color: black;
 	color: white;
 }
-
 
  
 .header li {
@@ -303,6 +452,67 @@ input {
   color: black;
   border-bottom: 3.25px solid black;
   text-decoration: none;
+  transition: 0.4s;
+}
+
+.sidebaropen {
+  display: none;
+  float: right;
+  top: 0;
+  margin-right: 25px;
+  align-items: center;
+  color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.closebtn {
+  margin-top: 12px;
+  padding: 0px 0px 0px 0px;
+}
+
+.closebtn a:hover {
+	background-color: #111;
+	color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebaropen{display: block}
+  .header li a{display: none}
 }
 
 .pageinfo p {
@@ -326,6 +536,7 @@ footer {
   padding-top: 25px;
   bottom: 0;
   background-color: black;
+  z-index: 10;
 }
 
 footer a {
