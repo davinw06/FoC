@@ -17,13 +17,31 @@
 	  <li><a href="concepts.html">Concepts</a></li>
 	  <li><a href="index.html">Course</a></li>
 	</ul>
+	<span class="sidebaropen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 </div>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Course</a>
+  <a href="concepts.html">Concepts</a>
+  <a href="projects.html">Projects</a>
+  <a href="aboutme.html">Dev Team</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 <section>
-<h2>Project 4 : Binary to Hexidecimal</h2>	
+<h2><span>Project 4 :</span> Binary to Hexadecimal</h2>	
 </section>
 <section class="bintohex">
-<p><img src="bintohex.jpg"></p>
+<p><img src="bintohex.png"></p>
         
 			
 <p>Enter any 4 digit binary number:</p>      
@@ -31,7 +49,7 @@
 
 
 
-<button class="submit" onclick="binToHex()">Submit</button>
+<button class="submit" style="cursor: pointer" onclick="binToHex()">Submit</button>
 
 <p>Hexadecimal Value : </p>
 <p id="demo"></p>
@@ -47,11 +65,12 @@ function binToHex() {
 
 
 </section>
+<p class="space"></p>
 
 
 
 <footer>
-  <a href="https://github.com/davinw06/FoC">@Github Sources</a>
+  <a href="https://github.com/davinw06/FoC" target="_blank">@Github Sources</a>
 </footer>
 
 </body>
