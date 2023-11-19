@@ -3,7 +3,7 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img1 = "https://github.com/davinw06/FoC/blob/main/switch-on-xxl.png";
    var img2 = "https://github.com/davinw06/FoC/blob/main/switch-off-xxl.png";
   
    
