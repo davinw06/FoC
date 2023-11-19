@@ -3,8 +3,8 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "https://github.com/davinw06/FoC/blob/950f6d40149c945bad8d7fbdd5cd2881ea753d31/switch-on-xxl.png";
-   var img2 = "https://github.com/davinw06/FoC/blob/3862f0fef947e3382684be0f2cddfb4c2162ba34/switch-off-xxl.png";
+   var img1 = "https://raw.githubusercontent.com/davinw06/FoC/950f6d40149c945bad8d7fbdd5cd2881ea753d31/switch-on-xxl.png";
+   var img2 = "https://raw.githubusercontent.com/davinw06/FoC/3862f0fef947e3382684be0f2cddfb4c2162ba34/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage');
@@ -17,8 +17,8 @@ function toggleImage() {
 
   
 function toggleImage2() {
-   var img1 = "https://github.com/davinw06/FoC/blob/950f6d40149c945bad8d7fbdd5cd2881ea753d31/switch-on-xxl.png";
-   var img2 = "https://github.com/davinw06/FoC/blob/3862f0fef947e3382684be0f2cddfb4c2162ba34/switch-off-xxl.png";
+   var img1 = "https://raw.githubusercontent.com/davinw06/FoC/950f6d40149c945bad8d7fbdd5cd2881ea753d31/switch-on-xxl.png";
+   var img2 = "https://raw.githubusercontent.com/davinw06/FoC/3862f0fef947e3382684be0f2cddfb4c2162ba34/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage2');
