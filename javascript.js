@@ -3,8 +3,8 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "switch-on-xxl.png";
-   var img2 = "switch-off-xxl.png";
+   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img2 = "https://www.iconsdb.com/icons/preview/black/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage');
@@ -17,8 +17,8 @@ function toggleImage() {
 
   
 function toggleImage2() {
-   var img1 = "switch-on-xxl.png";
-   var img2 = "switch-off-xxl.png";
+   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img2 = "https://www.iconsdb.com/icons/preview/black/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage2');
