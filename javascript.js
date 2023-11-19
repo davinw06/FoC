@@ -3,8 +3,8 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "switch-on-xxl.png";
-   var img2 = "switch-off-xxl.png";
+   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img2 = "https://www.iconsdb.com/icons/preview/black/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage');
@@ -17,14 +17,14 @@ function toggleImage() {
 
   
 function toggleImage2() {
-   var img1 = "switch-on-xxl.png";
-   var img2 = "switch-off-xxl.png";
+   var img1 = "https://www.iconsdb.com/icons/preview/black/switch-on-xxl.png";
+   var img2 = "https://www.iconsdb.com/icons/preview/black/switch-off-xxl.png";
   
    
    var imgElement = document.getElementById('toggleImage2');
 
 
-   imgElement.src = (imgElement.src === img2)? img2 : img1;
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
    
    
 }
@@ -75,5 +75,27 @@ function not(){
     if(inputOneIsOn)
         document.getElementById('notGate').src='noton.png';
     else if (!inputOneIsOn) 
-        document.getElementById('notGate').src='notoff.png';
+        document.getElementById('notGate').src='notoff.PNG';
+	}
+	
+function or(){
+    var a = inputOneIsOn;
+    var b = inputTwoIsOn;
+    
+	  
+            console.log('Input one is on: ', 
+                                inputOneIsOn); 
+								
+	        console.log('Input two is on: ', 
+                                inputTwoIsOn); 
+	
+    
+    if(inputOneIsOn&&inputTwoIsOn)
+        document.getElementById('orGate').src='or2on.png';
+    else if (!inputOneIsOn && inputTwoIsOn) 
+        document.getElementById('orGate').src='oroffon.png';
+	else if (inputOneIsOn && !inputTwoIsOn) 
+        document.getElementById('orGate').src='oronoff.png';
+	else if (!inputOneIsOn && !inputTwoIsOn) 
+        document.getElementById('orGate').src='or2off.png';
 	}
