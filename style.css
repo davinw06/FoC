@@ -47,8 +47,9 @@ body {
 
 #MLinstrucitons {
 	margin-right: 100px;
-	width: 70%;
+	width: 65%;
 	height: auto;
+	margin-bottom: 100px;
 }
 
 .bintohex {
