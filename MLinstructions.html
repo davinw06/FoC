@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<title>Final Project</title>
+<link rel="icon" type="image/x-icon" class="tabimg" href="https://www.ub.edu.bz/wp-content/uploads/2016/08/UB-Logo.png">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>	
+	<style>
+img {
+  float: right;
+}
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="header">
+	<a href="index.html"><h1>Fundamentals of Computing</h1></a>
+	<ul>
+	  <li><a href="aboutme.html">Dev Team</a></li>
+	  <li><a href="projects.html">Projects</a></li>
+	  <li><a href="concepts.html">Concepts</a></li>
+	  <li><a href="index.html">Course</a></li>
+	</ul>
+	<span class="sidebaropen" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Course</a>
+  <a href="concepts.html">Concepts</a>
+  <a href="projects.html">Projects</a>
+  <a href="aboutme.html">Dev Team</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<section class="h7">
+<h5><span>Project 7 :</span> A Simple Interactive Machine Language</h5>
+</section>
+<p>
+
+<img id="MLinstrucitons" src="MLblank.png" >
+
+
+<button class="button1" onclick="document.getElementById('MLinstrucitons').src='ML1.png'; document.getElementById('Englishinstrucitons').src='EI1.png'">156C</button><br>
+<button class="button1" onclick="document.getElementById('MLinstrucitons').src='ML2.png'; document.getElementById('Englishinstrucitons').src='EI2.png'">166D</button><br>
+<button class="button1" onclick="document.getElementById('MLinstrucitons').src='ML3.png'; document.getElementById('Englishinstrucitons').src='EI3.png'">5056</button><br>
+<button class="button1" onclick="document.getElementById('MLinstrucitons').src='ML4.png'; document.getElementById('Englishinstrucitons').src='EI4.png'">306E</button><br>
+<button class="button1" onclick="document.getElementById('MLinstrucitons').src='ML5.png'; document.getElementById('Englishinstrucitons').src='EI5.png'">C000</button><br>
+<img id="Englishinstrucitons" src="" >
+
+
+</p>
+
+<footer>
+  <a href="https://github.com/davinw06/FoC" target="_blank">@Github Sources</a>
+</footer>
+
+
+
+
+</body>
+</html>
