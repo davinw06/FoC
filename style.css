@@ -18,6 +18,24 @@ body {
   margin-bottom: 100px;
 }
 
+.button1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 25px;
+  cursor: pointer;
+}
+
+.button1:hover {
+	background-color: lightgray;
+	transition: 0.3s;
+}
+
 .button:hover {
 	background-color: lightgray;
 	transition: 0.3s;
@@ -25,6 +43,12 @@ body {
 
 .button:active {
 	background-color: black;
+}
+
+#MLinstrucitons {
+	margin-right: 100px;
+	width: 70%;
+	height: auto;
 }
 
 .bintohex {
@@ -204,7 +228,7 @@ body {
 
 .projects {
 	width: absolute;
-	height: 700px;
+	height: 850px;
 	background-color: lightgray;
 	margin-top: 0;
 }
@@ -411,6 +435,23 @@ h6 {
 	margin-left: 25px;
 	border-bottom: 3px solid black;
 	color: #3BFFE4;
+	height: 50px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin: 0;
+}
+
+.h7 h5 {
+	text-align: left;
+	font-size: 20pt;
+	font-family: calibri;
+	font-variant: small-caps;
+	font-weight: bold;
+	width: absolute;
+	background-color: black;
+	margin-left: 25px;
+	border-bottom: 3px solid black;
+	color: #BF8FFF;
 	height: 50px;
 	padding-left: 25px;
 	padding-top: 25px;
